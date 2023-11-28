@@ -9,6 +9,7 @@
     --azul-medio: #4D4C7D;
     --amarelo: #F99417;
     --branco: #F5F5F5;
+    --sidebar-width: 240px;
 }
 
 body {
@@ -16,3 +17,16 @@ body {
     color: var(--branco);
 }
 
+img {
+    width: 100%;
+}
+
+/* NAVBAR */
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidebar-width);
+        background: linear-gradient();
+    }
+}
