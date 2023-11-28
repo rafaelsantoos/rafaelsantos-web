@@ -23,12 +23,26 @@ img {
 
 /* NAVBAR */
 
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--branco);
+}
+
+.navbar .nav-link:hover {
+    color: var(--amarelo);
+}
+
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidebar-width);
-        background: linear-gradient(rgba(76, 76, 123, 0.9), rgba(77, 77, 122, 0.9)), url(../assets/pexels-malcolm-gillanders-16552524.jpg);
+        background: linear-gradient(rgba(76, 76, 123, 0.8), rgba(77, 77, 122, 0.8)), url(../assets/pexels-malcolm-gillanders-16552524.jpg);
         background-size: cover;
         background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 5px solid var(--amarelo);
     }
 }
