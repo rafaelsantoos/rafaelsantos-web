@@ -27,6 +27,8 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidebar-width);
-        background: linear-gradient();
+        background: linear-gradient(rgba(76, 76, 123, 0.9), rgba(77, 77, 122, 0.9)), url(../assets/pexels-malcolm-gillanders-16552524.jpg);
+        background-size: cover;
+        background-position: center;
     }
 }
