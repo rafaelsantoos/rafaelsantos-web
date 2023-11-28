@@ -10,3 +10,9 @@
     --amarelo: #F99417;
     --branco: #F5F5F5;
 }
+
+body {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
