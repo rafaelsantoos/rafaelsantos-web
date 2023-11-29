@@ -21,6 +21,10 @@ img {
     width: 100%;
 }
 
+.text-band {
+    color: var(--amarelo);
+}
+
 .full-height {
     min-height: 100vh;
     height: 100%;
@@ -66,4 +70,45 @@ img {
     #content-wrapper {
         padding-left: var(--sidebar-width);
     }
+}
+
+/* BTN */
+
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-brand {
+    background-color: var(--amarelo);
+    border-color: var(--amarelo);
+    color: var(--azul-medio);
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: var(--branco);
+    color: var(--azul-medio);
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--amarelo);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
 }
