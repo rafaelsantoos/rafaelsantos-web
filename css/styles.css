@@ -25,6 +25,10 @@ img {
     color: var(--amarelo);
 }
 
+.bg-base {
+    background-color: var(--azul-medio);
+}
+
 .full-height {
     min-height: 100vh;
     height: 100%;
@@ -34,6 +38,24 @@ img {
     padding-top: 80px;
     padding-bottom: 80px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -5px 5px 0 0 var(--amarelo);
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: var(--amarelo);
 }
 
 /* NAVBAR */
@@ -49,6 +71,10 @@ img {
 }
 
 .navbar .nav-link:hover {
+    color: var(--amarelo);
+}
+
+.navbar .nav-link.active {
     color: var(--amarelo);
 }
 
